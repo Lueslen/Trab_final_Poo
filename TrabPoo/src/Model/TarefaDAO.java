@@ -66,9 +66,10 @@ public class TarefaDAO extends BaseDAO{
                 lista.add(tarefa);
             }
         }catch (SQLException e){
-            System.out.println("Erro ao obter todas as tarefas ");
+            System.out.println("Erro ao receber todas as tarefas ");
             e.printStackTrace();
         }
         return lista;
     }
+    
 }
