@@ -3,7 +3,6 @@ package View;
 import Controller.Control;
 import Controller.ListarTarefas;
 import Model.Tarefa;
-
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
@@ -37,7 +36,6 @@ public class TarefasView extends JFrame{
         listaPanel.setLayout(new BoxLayout(listaPanel,BoxLayout.Y_AXIS));
         JScrollPane scrollPane = new JScrollPane(listaPanel);
         popularLista();
-
         base.add(obterHeader(), BorderLayout.NORTH);
         base.add(scrollPane, BorderLayout.CENTER);
         base.add(obterFoot(),BorderLayout.SOUTH);
