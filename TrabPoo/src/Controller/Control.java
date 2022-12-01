@@ -21,10 +21,10 @@ public class Control {
 
     public void concluir(Tarefa tarefa) throws Exception {
         if(tarefa.getId() < 1){
-            throw  new Exception("A tarefa não possui um identificador válido.");
+            throw  new Exception("Id válido.");
         }
         if(tarefa.isConcluido()){
-            throw  new Exception("A tarefa "+tarefa.getId()+" já está concluída.");
+            throw  new Exception("Tarefa "+tarefa.getId()+" concluída.");
         }
         tarefa.setConcluido(true);
         dao.atualizar(tarefa);
@@ -32,10 +32,10 @@ public class Control {
 
     public void desconcluir(Tarefa tarefa) throws Exception{
         if(tarefa.getId() < 1){
-            throw  new Exception("A tarefa não possui um identificador válido.");
+            throw  new Exception("Id válido.");
         }
         if(!tarefa.isConcluido()){
-            throw  new Exception("A tarefa "+tarefa.getId()+" não está concluída.");
+            throw  new Exception("Tarefa "+tarefa.getId()+" não concluída.");
         }
         tarefa.setConcluido(false);
         dao.atualizar(tarefa);
