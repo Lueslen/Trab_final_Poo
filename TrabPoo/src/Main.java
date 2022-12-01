@@ -1,4 +1,5 @@
 import Model.CriarTabelas;
+
 import View.TarefasView;
 
 public class Main {
@@ -8,4 +9,5 @@ public class Main {
         TarefasView tarefasView = new TarefasView();
         tarefasView.setVisible(true);
     }
+    
 }
