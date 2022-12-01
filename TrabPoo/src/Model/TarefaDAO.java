@@ -70,6 +70,7 @@ public class TarefaDAO extends BaseDAO{
             e.printStackTrace();
         }
         return lista;
+        
     }
     
 }
