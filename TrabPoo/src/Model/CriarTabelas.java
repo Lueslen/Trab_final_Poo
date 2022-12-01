@@ -19,7 +19,7 @@ public class CriarTabelas {
         List<String> lista = new ArrayList<>();
         lista.add(CRIAR_TABELA_TAREFA);
         for (String comando : lista){
-            try(Connection c = FabricaDeConexoes.obterInstancia().obterConexao();
+            try(Connection c = EmpilhadeiraAtolada.obterInstancia().obterConexao();
                 PreparedStatement p = c.prepareStatement(comando)) {
                 p.execute();
             }catch (Exception e){
