@@ -1,2 +1,2 @@
-# Trab-POO-Final-Lista-de-Tarefas
-Trabalho de POO Final - Lista de Tarefas
+# Trab-Poo-Lista-de-Tarefas
+Trabalho de Poo Lista de Tarefas
