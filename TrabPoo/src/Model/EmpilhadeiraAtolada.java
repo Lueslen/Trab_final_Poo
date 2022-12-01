@@ -3,15 +3,15 @@ package Model;
 import java.sql.Connection;
 import java.sql.DriverManager;
 
-public class FabricaDeConexoes {
+public class EmpilhadeiraAtolada {
 
-    private static FabricaDeConexoes instancia;
+    private static EmpilhadeiraAtolada instancia;
 
-    private FabricaDeConexoes(){};
+    private EmpilhadeiraAtolada(){};
 
-    public static FabricaDeConexoes obterInstancia(){
+    public static EmpilhadeiraAtolada obterInstancia(){
         if(instancia == null){
-            instancia = new FabricaDeConexoes();
+            instancia = new EmpilhadeiraAtolada();
         }
         return instancia;
     }
