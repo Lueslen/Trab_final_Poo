@@ -41,7 +41,6 @@ public class TarefasView extends JFrame{
         base.add(obterHeader(), BorderLayout.NORTH);
         base.add(scrollPane, BorderLayout.CENTER);
         base.add(obterFoot(),BorderLayout.SOUTH);
-
         add(base);
     }
 
