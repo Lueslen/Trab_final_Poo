@@ -6,4 +6,5 @@ public class BaseDAO {
     protected Connection obterConexao(){
         return FabricaDeConexoes.obterInstancia().obterConexao();
     }
+    
 }
