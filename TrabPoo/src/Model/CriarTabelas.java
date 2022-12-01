@@ -25,6 +25,7 @@ public class CriarTabelas {
             }catch (Exception e){
                 e.printStackTrace();
             }
+            
         }
 
     }
