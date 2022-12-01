@@ -25,6 +25,7 @@ public class EmpilhadeiraAtolada {
             e.printStackTrace();
         }
         throw new RuntimeException("Erro ao criar conexão com o banco de dados.");
+        
     }
     
 }
