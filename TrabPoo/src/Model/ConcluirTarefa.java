@@ -2,7 +2,6 @@ package Model;
 
 public class ConcluirTarefa {
 
-
     private TarefaDAO dao;
 
     public ConcluirTarefa(){
